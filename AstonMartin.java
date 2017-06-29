@@ -25,7 +25,7 @@ public class AstonMartin implements Driveable {
   }
 
   public int driveDistance(int distance) {
-    int time = distance / speed;
+    int time = distance / speed; //could have had return distance/speed as time variable unused
     return time;
   }
 
